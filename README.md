@@ -20,6 +20,8 @@ Put in practice the concepts that I've learnt about HTML and CSS, especially abo
 
 - CSS
 - HTML
+- Github
+- Git
 
 ## Setup
 
