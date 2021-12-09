@@ -1,6 +1,6 @@
 # Tea Cozy Shop
 
-A website for a fictional Tea Cozy Shop
+A website for a fictional Tea Cozy Shop.
 
 ## Table of contents
 - [General info](#general-info)
@@ -10,7 +10,7 @@ A website for a fictional Tea Cozy Shop
 
 ## General info
 
-A Tea Cozy Shop website
+A Tea Cozy Shop website.
 
 ## Objective
 
