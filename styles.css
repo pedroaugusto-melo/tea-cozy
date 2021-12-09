@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-left: 10px;
+    margin-top: 9.5px;
+}
+
+header nav {
+    width: 40%;
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+header nav a{
+    color: seashell;
+}
+
+main {
+    position: relative;
+    top: 69px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.mission {
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.mission .content {
+    background-color: black;
+}
+
+.mission .content p {
+    padding: 0;
+    margin: 0;
+}
+
+.month {
+    max-width: 1000px;
+    margin-top: 5%;
+}
+
+.gallery{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery figure {
+    margin: 1%;
+}
+
+.gallery img{
+    width: 300px;
+    height: 200px;
+}
+
+.gallery figcaption {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.location {
+    height: 500px;
+    max-width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.location h2 {
+    margin-bottom: 15px;
+}
+
+.places {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.place {
+    width: 300px;
+    background-color: black;
+    margin: 0 20px;
+    opacity: 1;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+footer .copy{
+    text-align: left;
+    padding: 0;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
